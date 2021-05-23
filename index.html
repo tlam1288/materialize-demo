@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,8 +19,452 @@
     <title>Materialize Demo</title>
   </head>
   <body>
-    <h1>Materialize Demo</h1>
+  
+    <div class="container">
+      <div class="row">
+        <!-- left side -->
+        <div class="col s12 l7">
+          <h2>col1</h2>
+          <!-- search bar -->
+          <div class="row">
+            <div class="col s4 push-s8">
+              <div class="input-field col">
+                <i class="material-icons prefix">search</i>
+                <input id="icon_prefix" type="search" />
+                <label for="icon_prefix">Search</label>
+              </div>
+            </div>
+          </div>
+          <!-- end search bar -->
+          <!-- header drop downs -->
+          <div class="row">
+            <div class="col">
+              <!-- Dropdown Trigger -->
+              <!-- <i class="material-icons prefix">business</i> -->
+              
+  <select class="browser-default">
+    <option value="" disabled selected>BIO LAB FAB</option>
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+              <!-- <a
+                class="dropdown-trigger btn white black-text"
+                href="#"
+                data-target="dropdown1"
+                >Bio Lab Fab</a
+              > -->
+              <!-- Dropdown Structure -->
+              <!-- <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">Bio Lab Fab drop down</a></li>
+              </ul> -->
+            </div>
+            <div class="col">
+                <select class="browser-default">
+                    <option value="" disabled selected>Filter</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+            </div>
+            <div class="col ">
+              <a class="waves-effect waves-light btn-small grey"
+                ><i class="material-icons left">add_box</i>Create New Job</a
+              >
+            </div>
+          </div>
+          <!-- end header drop downs -->
+          <!-- active table -->
+          <div class="row">
+            <table class="highlight">
+              <thead>
+                <tr>
+                  <th class="test">Active</th>
+                  <th>Test</th>
+                  <th>Material</th>
+                  <th>Time</th>
+                  <th>Left</th>
+                  <th>Progress</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>BLF-104</td>
+                  <td>Disk</td>
+                  <td>502N</td>
+                  <td>9:01AM</td>
+                  <td>1D 12:34H</td>
+                  <td>Progress Bar</td>
+                </tr>
+                <tr>
+                  <td>BLF-104</td>
+                  <td>Disk</td>
+                  <td>502N</td>
+                  <td>9:01AM</td>
+                  <td>1D 12:34H</td>
+                  <td>Progress Bar</td>
+                </tr>
+                <tr>
+                  <td>BLF-104</td>
+                  <td>Disk</td>
+                  <td>502N</td>
+                  <td>9:01AM</td>
+                  <td>1D 12:34H</td>
+                  <td>Progress Bar</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- ^ end active table -->
+          <!-- pending table -->
+          <div class="row">
+            <table class="highlight">
+              <thead>
+                <tr>
+                  <th class="test">Pending</th>
+                  <th>Test</th>
+                  <th>Material</th>
+                  <th>Time</th>
+                  <th>Estimated</th>
+                  <th>Progress</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>BLF-104</td>
+                  <td>Disk</td>
+                  <td>502N</td>
+                  <td>9:01AM</td>
+                  <td>1D 12:34H</td>
+                  <td>Progress Bar</td>
+                </tr>
+                <tr>
+                  <td>BLF-104</td>
+                  <td>Disk</td>
+                  <td>502N</td>
+                  <td>9:01AM</td>
+                  <td>1D 12:34H</td>
+                  <td>Progress Bar</td>
+                </tr>
+                <tr>
+                  <td>BLF-104</td>
+                  <td>Disk</td>
+                  <td>502N</td>
+                  <td>9:01AM</td>
+                  <td>1D 12:34H</td>
+                  <td>Progress Bar</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- ^ end pending table -->
+          <!-- completed table -->
+          <div class="row">
+            <table class="highlight">
+              <thead>
+                <tr>
+                  <th class="test">Completed</th>
+                  <th>Test</th>
+                  <th>Material</th>
+                  <th>Time</th>
+                  <th>Left</th>
+                  <th>Progress</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>BLF-104</td>
+                  <td>Disk</td>
+                  <td>502N</td>
+                  <td>9:01AM</td>
+                  <td>1D 12:34H</td>
+                  <td>Progress Bar</td>
+                </tr>
+                <tr>
+                  <td>BLF-104</td>
+                  <td>Disk</td>
+                  <td>502N</td>
+                  <td>9:01AM</td>
+                  <td>1D 12:34H</td>
+                  <td>Progress Bar</td>
+                </tr>
+                <tr>
+                  <td>BLF-104</td>
+                  <td>Disk</td>
+                  <td>502N</td>
+                  <td>9:01AM</td>
+                  <td>1D 12:34H</td>
+                  <td>Progress Bar</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- ^ end completed table -->
+        </div>
+        <!--  ^ end left side -->
+        <!--  begin right side -->
+        <div class="col s12 l5">
+          <h2>col 2</h2>
+          <!-- 1st row -->
+          <div class="row">
+            <div class="col ">
+                <h5>BLF-125</h5>
+            </div>
+            <div class="col ">
+                <a class="waves-effect waves-light btn-small grey"
+                >Clone</a
+              >
+            </div>
+            </div>
+            <!-- ^ end first row -->
+            <!-- 2nd row -->
+            <div class="row">
+                <div class="col s4">
+                    <p>MATERIAL</p>
+                </div>
+                <div class="col s4">
+                    <select class="browser-default">
+                        <option value="" disabled selected>502</option>
+                        <option value="1">Option 1</option>
+                        
+                      </select>
+                </div>
+                </div>
+                <!-- ^ end 2nd row -->
+                <!-- 3rd row -->
+                <div class="row">
+                    <div class="col s4 l4">
+                        <p>STATUS</p>
+                        <p>SUBMITTED</p>
+                        <p>ESTIMATED</p>
+                    </div>
+                    <div class="col s4 l4">
+                        <p>PENDING</p>
+                        <p>3:01 pm 04/13/20</p>
+                        <p>6H 23M </br>
+                            5:34PM 04/13/20</p>
+                    </div>
+                    <div class="col s4 l4">
+                        <img src="https://via.placeholder.com/200x90.png" alt="placeholder">
+                    </div>
+                </div>
+                <!-- ^ end 3rd row -->
+                <!-- 4th row -->
+                <div class="row">
+                    <div class="col s3 l3">
+                        <p>GEOMETRY</p>
+                    </div>
+                    <div class="col s3 l3">
+                        <a class="waves-effect waves-light btn-small grey lighten-4 grey-text"
+                        >horiz</a
+                      >
+                    </div>
+                    <div class="col s3 l3">
+                        <a class="waves-effect waves-light btn-small grey lighten-4 grey-text"
+                        >REPLACE</a
+                      >
+                    </div>
+                    <div class="col s3 l3">
+                        <a class="waves-effect waves-light btn-small grey darken-4"
+                        >SLICE VIEW</a
+                      >
+                    </div>  
+                </div>
+                <!-- ^end 4th row -->
+                <div class="divider"></div>
+                <!-- 5th row -->
+                <div class="row">
+                    <div class="col">
+                        <p>BUILD SETTINGS</p>
+                    </div>
+                    <div class="col">
+                        <p>View all settings</p>
+                    </div>
+                </div>
+                <!-- ^ end 5th row -->
+                <!-- 6th row -->
+                <div class="row">
+                    <div class="col s12">
+                        <p>Scale Factor</p>
+                    </div>
+                    <div class="col s12">
+                       <div class="col s2">
+                           X  1.000
+                       </div>
+                       <div class="col s2">
+                        Y  1.000
+                    </div>
+                    <div class="col s2">
+                        Z  1.000
+                    </div>
+                    </div>
+                </div>
+                <!-- ^ end 6th row -->
+                <div class="divider"></div>
+                <!-- 7th row -->
+                <div class="row">
+                    <div class="col s12">
+                        <p>Projector</p>
+                    </div>
+                    <div class="col s12">
+                        <p>Power</p>
+                              <label>
+                                <input name="group1" type="radio"/>
+                                <span>Low 200 watts</span>
+                              </label>
+                              <label>
+                                <input name="group1" type="radio" />
+                                <span>High 700 watts</span>
+                              </label>     
+                    </div>
+                </div>
+                <!-- ^end 7th row -->
+                <div class="divider"></div>
+                <!-- 8th row -->
+                <div class="row">
+                    <div class="col s6">
+                        <p>B LAY</p>
+                    </div>
+                    <div class="col s6">
+                        <p>REG LAY</p>
+                    </div>
+                </div>
+                <!-- ^ end 8th row -->
+                 <!-- 9th row -->
+                 <div class="row">
+                    <div class="col s3">
+                        <p>Info 1</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>1-10</option>
+                          </select>
+                    </div>
+                    <div class="col s3">
+                        <p>Info 1</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>1-10</option>
+                          </select>
+                    </div> 
+                </div>
+                <!-- ^ end 9th row -->
+                <!-- 10th row -->
+                <div class="row">
+                    <div class="col s3">
+                        <p>Info 2</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>100 ms</option>
+                          </select>
+                    </div>
+                    <div class="col s3">
+                        <p>Info 3</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>10 microns</option>
+                          </select>
+                    </div> 
+                </div>
+                <!-- ^ end 10th row -->
+                <!-- 11th row -->
+                <div class="row">
+                    <div class="col s3">
+                        <p>Info 3</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>10 microns</option>
+                          </select>
+                    </div>
+                    <div class="col s3">
+                        <p>Z-Info</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>1-10</option>
+                          </select>
+                    </div> 
+                </div>
+                <!-- ^ end 11th row -->
+                 <!-- 12th row -->
+                 <div class="row">
+                    <div class="col s3">
+                        <p>Info 4</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>1-10</option>
+                          </select>
+                    </div>
+                </div>
+                <!-- ^ end 12th row -->
+                <div class="divider"></div>
+                <!-- 13th row -->
+                <div class="row">
+                    <div class="col s12">
+                        <p>Pulse</p>
+                    </div>
+                    
+                </div>
+                <!-- ^ end 13th row -->
+                <!-- 14th row -->
+                <div class="row">
+                    <div class="col s3">
+                        <p>Info 1</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>1-10mm</option>
+                          </select>
+                    </div>
+                    <div class="col s3">
+                        <p>Info 3</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>100 ms</option>
+                          </select>
+                    </div> 
+                </div>
+                <!-- ^ end 14th row -->
+                <!-- 15th row -->
+                <div class="row">
+                    <div class="col s3">
+                        <p>Info 2</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>100ms</option>
+                          </select>
+                    </div>
+                    <div class="col s3">
+                        <p>Info 4</p>
+                    </div>
+                    <div class="col s3">
+                        <select class="browser-default">
+                            <option value="" disabled selected>100 ms</option>
+                          </select>
+                    </div> 
+                </div>
+                <!-- ^ end 15th row -->
+          </div>
+        </div>
+      </div>
+      <!-- end right side -->
+      <!--closing main row-->
+    </div>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      M.AutoInit();
+    </script>
   </body>
 </html>
